@@ -1,5 +1,7 @@
 # 大規模ソフトウェア論:グループ6用リポジトリ
 
+- [2022年度・大規模ソフトウェア論・作業シート](https://docs.google.com/spreadsheets/d/1pnvH78sYDOkxq2UYTylRxDqKGj_zEgqcnl-wCCvn24M/edit#gid=0)
+
 ## チーム名
 - **MakuranoSousi**
 
