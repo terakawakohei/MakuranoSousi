@@ -26,7 +26,6 @@
 
 ## GUI紙芝居
 ### ルーム画面
-<img src="gamen1.png">
+<img src="image/room_img.png">
 
-コメント：．．．
 
