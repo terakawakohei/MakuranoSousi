@@ -24,12 +24,12 @@
 
 ## GUI紙芝居
 ### ○○画面
-<img src="gamen1.png">
+<img src="room_img.png">
 
-コメント：．．．
+事前条件としてユーザーが参加しているルームの画面
 
 ### ○○画面
-<img src="gamen2.png">
+<img src="lobby.png">
 
-コメント：．．．
+退室後表示されるフロント画面
 
