@@ -33,7 +33,7 @@
 
 ## GUI紙芝居
 ### フロント画面
-<img src="">
+<img src="lobby.png">
 
 
 コメント：事前画面・ID入力
