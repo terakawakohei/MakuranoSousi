@@ -28,7 +28,7 @@
 コメント：．．．
 
 ### ○○画面
-<img src="gamen2.png">
+<img src="room_img.png">
 
-コメント：．．．
+作成後、遷移する画面
 
