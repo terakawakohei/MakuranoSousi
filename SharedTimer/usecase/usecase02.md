@@ -33,13 +33,13 @@
 
 ## GUI紙芝居
 ### フロント画面
-<img src="">
+<img src="image/lobby.png">
 
 
 コメント：事前画面・ID入力
 
 ### ルーム画面
-<img src="">
+<img src="image/room_img.png">
 
 コメント：事後画面
 
