@@ -30,15 +30,15 @@
 
 ## GUI紙芝居
 ### ルーム画面
-<img src=".\image\room.png">
+<img src="./image/room.png">
 
 コメント：．．．
 
 ### 確認画面
-<img src=".\image\confirm.png">
+<img src="./image/confirm.png">
 
 ### ロビー画面
-<img src=".\image\lobby.png">
+<img src="./image/lobby.png">
 
 コメント：．．．
 
