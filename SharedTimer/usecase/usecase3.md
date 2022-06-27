@@ -29,13 +29,16 @@
 - 2.a.2  システムは，ユーザーに表示された確認コメントとボタンを消す．
 
 ## GUI紙芝居
-### ○○画面
-<img src="gamen1.png">
+### ルーム画面
+<img src=".\image\room.png">
 
 コメント：．．．
 
-### ○○画面
-<img src="gamen2.png">
+### 確認画面
+<img src=".\image\confirm.png">
+
+### ロビー画面
+<img src=".\image\lobby.png">
 
 コメント：．．．
 
