@@ -23,7 +23,7 @@
 
 ## GUI紙芝居
 ### ○○画面
-<img src="gamen1.png">
+<img src="lobby.png">
 
 コメント：．．．
 
