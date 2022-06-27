@@ -30,7 +30,7 @@
 
 ## GUI紙芝居
 ### ルーム画面
-<img src="image/room_img.png">
+<img src="./image/room_img.png">
 
 コメント：ルーム画面,「ユーザ１説明中」と表示されている.
 
