@@ -30,7 +30,7 @@
 
 ## GUI紙芝居
 ### ルーム画面
-<img src="./image/room.png">
+<img src="./image/room_img2.png">
 
 コメント：．．．
 

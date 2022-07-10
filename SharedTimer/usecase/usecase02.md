@@ -39,7 +39,7 @@
 コメント：事前画面・ID入力
 
 ### ルーム画面
-<img src="./image/room_img.png">
+<img src="./image/room_img2.png">
 
 コメント：事後画面
 
