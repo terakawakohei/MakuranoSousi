@@ -1,11 +1,64 @@
 <mxfile host="65bd71144e">
     <diagram id="nwMAAaj-PQKLhIy0zyxt" name="ページ1">
-        <mxGraphModel dx="1117" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1117" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="ルーム画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry y="250" width="100" height="80" as="geometry"/>
+                <mxCell id="3" value="&lt;font color=&quot;#000000&quot;&gt;ユーザ&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#000000;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="60" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#ffffff;strokeColor=#000000;fillColor=#1ba1e2;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="150" width="10" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font color=&quot;#000000&quot;&gt;ルーム画面&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#ffffff;strokeColor=#000000;fillColor=#1ba1e2;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="70" width="100" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;strokeColor=#000000;fillColor=#66B2FF;" parent="7" vertex="1">
+                    <mxGeometry x="45" y="170" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font color=&quot;#000000&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;タイマーストップボタンを押す&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;" edge="1" parent="7" target="14">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="60" y="180" as="sourcePoint"/>
+                        <mxPoint x="140" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;strokeColor=#000000;fillColor=#66B2FF;" vertex="1" parent="7">
+                    <mxGeometry x="45" y="230" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ルームに入室する&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;strokeColor=#000000;exitX=1;exitY=0.409;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry x="0.0024" width="80" relative="1" as="geometry">
+                        <mxPoint x="140" y="240" as="sourcePoint"/>
+                        <mxPoint x="210" y="239" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="210" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;font color=&quot;#000000&quot;&gt;タイマーストップコントローラ&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#36393d;fillColor=#cdeb8b;" parent="1" vertex="1">
+                    <mxGeometry x="364" y="70" width="100" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;strokeColor=#000000;fillColor=#66B2FF;" parent="14" vertex="1">
+                    <mxGeometry x="45" y="180" width="10" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="タイマーの状態を変更" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" edge="1" parent="14" target="16">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="56" y="200" as="sourcePoint"/>
+                        <mxPoint x="136" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="&lt;font color=&quot;#000000&quot;&gt;タイマー&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#36393d;fillColor=#FF66B3;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="70" width="100" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;strokeColor=#000000;fillColor=#66B2FF;" vertex="1" parent="16">
+                    <mxGeometry x="45" y="200" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="タイマーカウントを停止させる" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;entryX=1.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="14" target="20">
+                    <mxGeometry x="0.0778" width="80" relative="1" as="geometry">
+                        <mxPoint x="310" y="310" as="sourcePoint"/>
+                        <mxPoint x="320" y="310" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
