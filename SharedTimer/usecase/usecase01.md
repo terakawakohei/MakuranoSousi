@@ -28,7 +28,7 @@
 事前条件としてユーザーがアクセスしている画面
 
 ### ○○画面
-<img src="image/room_img.png">
+<img src="image/room_img2.png">
 
 作成後、遷移する画面
 

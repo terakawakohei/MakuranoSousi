@@ -24,7 +24,7 @@
 
 ## GUI紙芝居
 ### ○○画面
-<img src="room_img.png">
+<img src="room_img2.png">
 
 事前条件としてユーザーが参加しているルームの画面
 

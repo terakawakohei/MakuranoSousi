@@ -31,11 +31,11 @@
 
 ## GUI紙芝居
 ### ルーム画面
-<img src="./image/room_img.png">
+<img src="./image/room_img2.png">
 
 コメント：事前画面・タイマー稼働中.画像のタイマースタートがタイマーストップにかわっているはず。
 
 ### ルーム画面
-<img src="./image/room_img.png">
+<img src="./image/room_img2.png">
 
 コメント：事後画面・タイマー停止
