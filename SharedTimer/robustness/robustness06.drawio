@@ -1,0 +1,148 @@
+<mxfile host="65bd71144e">
+    <diagram id="YhOL6rYg8noSKbr2y-sw" name="Page-1">
+        <mxGraphModel dx="1391" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="4" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="ルーム画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#000000;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="80" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" edge="1" parent="1" source="6" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=-0.007;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="6" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="160" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="10" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="10" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=-0.014;entryY=0.562;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="10" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="10" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="タイマー設定画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="420" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="タイマーの設定ボタンを押す" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="100" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0.495;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="12" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="タイマーの設定ボタンを押す" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="379" y="80" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="15" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=-0.038;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="15" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="タイマーの状態を確認" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="379" y="-60" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0.627;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="18" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="稼働中エラーでルーム画面を表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;strokeColor=#314354;fillColor=#647687;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="-60" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="稼働中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="-50" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0.514;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="22" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="22" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="現在の設定を取得" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="10" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="稼働していない" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="-10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0.967;entryY=0.271;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="25" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="タイマー&lt;br&gt;設定画面を表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="280" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="タイマー" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="10" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="305" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="戻るボタンを押す" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="310" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0.56;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="32" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="ルーム画面を表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="180" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=-0.024;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="36" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="本鈴の設定時間を入力" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="420" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="タイマーの設定を入力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="-15" y="370" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="39" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="39" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="設定を更新" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="520" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0.577;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="42" target="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="218" y="740"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="タイマー&lt;br&gt;設定画面の表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="700" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="45">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="予鈴を追加" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="520" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=-0.052;entryY=0.604;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="1" source="48" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="予鈴の設定時間を入力" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="630" width="70" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
