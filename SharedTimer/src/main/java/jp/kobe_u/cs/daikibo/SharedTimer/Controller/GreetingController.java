@@ -7,6 +7,7 @@ import org.springframework.web.util.HtmlUtils;
 
 import jp.kobe_u.cs.daikibo.SharedTimer.Message.Greeting;
 import jp.kobe_u.cs.daikibo.SharedTimer.Message.HelloMessage;
+import jp.kobe_u.cs.daikibo.SharedTimer.Message.TimerEvent;
 
 @Controller
 public class GreetingController {
@@ -14,9 +15,8 @@ public class GreetingController {
 
   @MessageMapping("/hello")
   @SendTo("/topic/greetings")
-  public Greeting greeting(HelloMessage message) throws Exception {
-    Thread.sleep(1000); // simulated delay
-    return new Greeting("Hello, " + HtmlUtils.htmlEscape(message.getName()) + "!");
+  public String greeting(TimerEvent event) throws Exception {
+    return event.getEvent();
   }
 
 }
