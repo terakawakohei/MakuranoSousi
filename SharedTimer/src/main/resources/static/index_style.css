@@ -1,0 +1,11 @@
+.container-fluid{
+    text-align: center;
+    border-top: 30px solid white
+}
+.def_timer{
+    font-size: 1in;
+    text-align: center;
+    line-height: 1;
+    border: 5px solid; 
+    
+}
