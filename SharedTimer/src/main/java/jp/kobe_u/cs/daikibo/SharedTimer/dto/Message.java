@@ -1,3 +1,5 @@
+package jp.kobe_u.cs.daikibo.SharedTimer.dto;
+
 import lombok.Data;
 
 @Data
