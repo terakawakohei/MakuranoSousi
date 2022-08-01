@@ -10,7 +10,7 @@
     <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
     <script th:src="@{/webjars/sockjs-client/sockjs.min.js}"></script>
     <script th:src="@{/webjars/stomp-websocket/stomp.min.js}"></script>
-    <script th:src="@{/app.js}"></script>
+    <script th:src="@{/js/app.js}"></script>
   </head>
   <body>
     <noscript
@@ -68,6 +68,15 @@
           </table>
         </div>
       </div>
+      <article>
+        <div class="container-fluid">
+          <p class="def_timer">00:00:00</p>
+          <button type="button" class="btn btn-primary">Start</button>
+          <!--classは複数指定できる。上の場合btnとbtn-primary-->
+          <button type="button" class="btn btn-danger">Stop</button>
+        </div>
+        <script th:src="@{/js/timer.js}"></script>
+      </article>
     </div>
   </body>
 </html>

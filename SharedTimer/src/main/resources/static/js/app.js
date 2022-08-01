@@ -18,6 +18,8 @@ function connect() {
     setConnected(true);
     console.log("Connected: " + frame);
     stompClient.subscribe("/topic/greetings", function (greeting) {
+      //更新が起こるたび，ここが呼ばれる？
+      //GreetingControllerで作成したGreeting型がjsonで帰ってくる
       showGreeting(JSON.parse(greeting.body).content);
     });
   });
