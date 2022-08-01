@@ -1,5 +1,6 @@
 var stompClient = null;
 
+const contextPath = getContextPath();
 function setConnected(connected) {
   $("#connect").prop("disabled", connected);
   $("#disconnect").prop("disabled", !connected);
@@ -12,7 +13,8 @@ function setConnected(connected) {
 }
 
 function connect() {
-  var socket = new SockJS("/websocket"); // WebSocket通信開始
+  console.log(contextPath);
+  var socket = new SockJS(contextPath + "websocket"); // WebSocket通信開始
   stompClient = Stomp.over(socket);
   stompClient.connect({}, function (frame) {
     setConnected(true);
@@ -65,3 +67,13 @@ $(function () {
 });
 
 setTimeout("connect()", 3000);
+function getContextPath() {
+  var path = "./";
+  var e = document.createElement("span");
+  e.innerHTML = '<a href="' + path + '" />';
+  url = e.firstChild.href;
+  console.log(url);
+  var p = url.split("/");
+  return url;
+  //    return '/' + p[3] + '/';
+}
