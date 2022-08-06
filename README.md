@@ -30,11 +30,3 @@ git clone https://github.com/terakawakohei/MakuranoSousi.git
 ```
 
 - VSCode 等のエディタで MakuranoSousi を開く
-
-## 実装計画
-
-- 各自のブラウザ上で個別に動作するタイマーの実装
-  - https://zenn.dev/uchidametal/articles/4d1c7bf34777bd
-- タイマーのスタート，ストップアクションを websocket を通じて全体に通知する機能の実装
-  - https://zenn.dev/kirk3110/articles/508842425f904c
-- websocket を通じた上記のような通知から，タイマーをスタート，ストップさせるような機能の実装
